@@ -90,6 +90,12 @@ body {
 .team .card-body i {
 	font-size: 20px;
 }
+
+@media only screen and (max-width:396px){
+	.navbar-light .navbar-brand{
+		font-size: 18px;
+	}
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.carousel-caption {
 		bottom: 370px;
