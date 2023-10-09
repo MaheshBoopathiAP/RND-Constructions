@@ -91,17 +91,37 @@ body {
 	font-size: 20px;
 }
 
+#btn{
+	line-height: 2.0;
+}
+
 @media only screen and (max-width:396px){
 	.navbar-light .navbar-brand{
 		font-size: 18px;
 	}
 	.w-100 {
-		height: 65vh;
+		height: 60vh;
 	}
 	.carousel-item {
-		height: 65vh;
+		margin-top: 50px;
+		height: 60vh;
 		
 	}
+
+	#btn{
+		line-height: 1.2;
+	}
+
+	#about-button{
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50%;
+		margin: 20px auto;	
+		line-height: 2.0;
+	}
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.carousel-caption {
@@ -258,3 +278,6 @@ body {
     background: var(--primary);
 }
 
+#footer{
+	text-decoration: none;
+}
