@@ -96,10 +96,10 @@ body {
 		font-size: 18px;
 	}
 	.w-100 {
-		height: 72vh;
+		height: 65vh;
 	}
 	.carousel-item {
-		height: auto;
+		height: 65vh;
 		
 	}
 }
