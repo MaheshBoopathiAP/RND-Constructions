@@ -397,17 +397,22 @@ body {
   }
   
   .text .button {
-	font-size: 80%;
-	color: #fff;
-	background: transparent;
-	border: #fff solid 2px;
-	padding: 15px 50px;
+	font-size: 120%;
+	color: #ffcc00;
+	background: rgba(255, 225, 0, 0);
+	border: #ffea00 solid 2px;
+	padding: 10px 50px;
 	text-align: center;
 	font-weight: 700;
 	letter-spacing: 1px;
 	cursor: pointer;
 	outline: none;
 	border-radius: 100px;
+  }
+  .text .button:hover {
+
+	background-color: #ffffff;
+	color: #000000;
   }
   
   .hover-left .split.left .text {
