@@ -440,6 +440,7 @@ body {
   
 	.text {
 	  top: 30%;
+	  transform: translate(-50%, -50%); 
 	}
   
 	.text .title {
@@ -478,21 +479,12 @@ body {
 	}
 	.hover-right .split.right {
 	  width:100%;
-  }
-  
-  .hover-left .split.left .text {
-	transform: translate(-50%, -50%);
-  }
-  
+  	}
   .hover-left .split.right .text {
-	transform: translate(-50%, -50%);
-  }
-  
-  .hover-right .split.right .text {
-	transform: translate(-50%, -50%);
-  }
-  
-  .hover-right .split.left .text {
-	transform: translate(-50%, -50%);
-  }
+    transform: translate(-50%, -50%);
+	}
+.hover-right .split.right .text {
+    transform: translate(-50%, -50%);
+    
+	}
   }
