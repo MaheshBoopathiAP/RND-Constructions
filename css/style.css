@@ -341,7 +341,7 @@ body {
   }
   
   .skateboard {
-	margin-top: 28%;
+	margin-top: 29%;
 	width: 100%;
    position: absolute;
 	top: 50%;
@@ -362,7 +362,7 @@ body {
 	
 	width: 80%;
 	position: absolute;
-	top: 45%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	transition: all 1s cubic-bezier(.87, .76, .33, .98);
@@ -393,26 +393,28 @@ body {
 	font-weight: 300;
 	line-height: 2;
 	margin: 0px 0 30px 0;
-	width: 60%;
   }
+  
+
   
   .text .button {
 	font-size: 120%;
-	color: #ffcc00;
-	background: rgba(255, 225, 0, 0);
+	color: #ffea00;
+	background-color: rgba(91, 91, 91, 0.5);
 	border: #ffea00 solid 2px;
-	padding: 10px 50px;
+	padding: 10px 30px;
 	text-align: center;
 	font-weight: 700;
 	letter-spacing: 1px;
 	cursor: pointer;
 	outline: none;
-	border-radius: 100px;
+	border-radius: 50px;
   }
   .text .button:hover {
 
 	background-color: #ffffff;
 	color: #000000;
+	
   }
   
   .hover-left .split.left .text {
@@ -430,6 +432,9 @@ body {
   
   .hover-right .split.left .text {
 	transform: translate(-45%, -50%);
+  }
+  #home1{
+	color: #000;
   }
   
   @media screen and (max-width: 500px) {
