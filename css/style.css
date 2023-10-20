@@ -59,7 +59,7 @@ body {
 	line-height: 2.3;
 }
 .navbar-light .navbar-nav .nav-link.active {
-	border-bottom: 2px solid red; /* You can change the color as needed */
+	border-bottom: 3px solid rgb(255,196,12); /* You can change the color as needed */
 }
 .navbar-nav a {
 	font-size: 15px;
