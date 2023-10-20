@@ -47,6 +47,7 @@ body {
 	background: rgba(0, 0, 0, 0.7);
 	z-index: 1;
 }
+
 .navbar .getstarted {
 	background: #106eea;
 	margin-left: 30px;
@@ -57,10 +58,14 @@ body {
 	padding: .5rem 1rem;
 	line-height: 2.3;
 }
+.navbar-light .navbar-nav .nav-link.active {
+	border-bottom: 2px solid red; /* You can change the color as needed */
+}
 .navbar-nav a {
 	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: 500;
+	margin-right: 5px;
 }
 .navbar-light .navbar-brand {
 	color: #000;
@@ -362,7 +367,7 @@ body {
 	
 	width: 80%;
 	position: absolute;
-	top: 40%;
+	top: 35%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	transition: all 1s cubic-bezier(.87, .76, .33, .98);
@@ -409,6 +414,7 @@ body {
 	cursor: pointer;
 	outline: none;
 	border-radius: 50px;
+	
   }
   .text .button:hover {
 
@@ -485,13 +491,41 @@ body {
 	.hover-right .split.right {
 	  width:100%;
   	}
-  .hover-left .split.right .text {
+    .hover-left .split.right .text {
     transform: translate(-50%, -50%);
 	}
-.hover-right .split.right .text {
-    transform: translate(-50%, -50%);
-    
+	.hover-left .split.left .text {
+	transform: translate(-50%, -50%);
 	}
+	.hover-right .split.left .text {
+	transform: translate(-50%, -50%);
+	}
+	.hover-right .split.right .text{
+	transform: translate(-50%, -50%);
+	   margin-left: 0%;
+	}
+
+	.skateboard {
+		margin-top: 29%;
+		width: 100%;
+	   position: absolute;
+		top: 56%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	  }
+	  
+	  .shoes {
+		margin-top: 27%;
+		width: 100%;
+		position: absolute;
+		top: 56%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	  }
+
+	  .navbar-light .navbar-nav .nav-link.active {
+		border-bottom: none; /* You can change the color as needed */
+	  }
   }
 
   /* contact  */

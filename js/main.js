@@ -17,3 +17,14 @@ right.addEventListener('mouseenter', () => {
 right.addEventListener('mouseleave', () => {
   content.classList.remove('hover-right');
 })
+
+const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            navLinks.forEach(item => {
+                item.classList.remove('active');
+            });
+            this.classList.add('active');
+        });
+    });
