@@ -296,6 +296,107 @@ body {
 	text-decoration: none;
 }
 
+.wav{
+	position: relative;
+	width: 100%;
+	height: 20vh;
+	background: transparent;
+	overflow: hidden;
+	color: #858585;
+}
+
+.wav .wave {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 88.7'%3E%3Cpath d='M800 56.9c-155.5 0-204.9-50-405.5-49.9-200 0-250 49.9-394.5 49.9v31.8h800v-.2-31.6z' fill='%23212529'/%3E%3C/svg%3E"
+	);
+	background-size: 900px 100px;
+	
+}	
+
+.wav .wave.wave1
+{
+	animation: animate 30s linear infinite;
+	z-index: 1000;
+	opacity: 1;
+	animation-delay: 0s;
+	bottom: 0;
+	
+}
+
+
+@keyframes animate2 {
+	0% {
+		background-position-x: 0;
+	}
+	100% {
+		background-position-x: -1000px;
+	}
+}
+
+.wav .wave.wave2
+{
+	animation: animate2 15s linear infinite;
+	z-index: 999;
+	opacity: 0.5;
+	animation-delay: -5s;
+	bottom: 10px;
+}
+
+
+@keyframes animate {
+	0% {
+		background-position-x: 0;
+	}
+	100% {
+		background-position-x: 1000px;
+	}
+}
+
+.wav .wave.wave3
+{
+	animation: animate 30s linear infinite;
+	z-index: 998;
+	opacity: 0.2;
+	animation-delay: -5s;
+	bottom: 15;
+}
+.wav .wave.wave4
+{
+	animation: animate2 5s linear infinite;
+	z-index: 997;
+	opacity: 0.7;
+	animation-delay: -5s;
+	bottom: 20px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px; /* Adjust the left position as needed */
+    top: 50%; /* Center the icon vertically */
+    transform: translateY(-50%); /* Center the icon vertically */
+	size: 10px;
+}
+.input-icon-msg {
+    position: absolute;
+    left: 10px; /* Adjust the left position as needed */
+    top: 22%; /* Center the icon vertically */
+    transform: translateY(-50%); /* Center the icon vertically */
+}
+
+.form-control {
+	padding-left: 32px;
+}
+  
+
+
 /* front home
 =========================== */
 
@@ -442,8 +543,11 @@ body {
   #home1{
 	color: #000;
   }
+
   
   @media screen and (max-width: 500px) {
+
+	
    
 	.split{
 	  height: 100%;
