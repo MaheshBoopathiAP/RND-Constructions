@@ -28,3 +28,5 @@ const navLinks = document.querySelectorAll('.nav-link');
             this.classList.add('active');
         });
     });
+
+    

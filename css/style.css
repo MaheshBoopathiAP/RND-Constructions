@@ -15,7 +15,7 @@ body {
   overflow-x: hidden;
 }
 .section-padding {
-	padding: 100px 0;
+	padding: 100px 0 0 0;
 }
 .carousel-item {
 	height: 100vh;
@@ -108,6 +108,251 @@ body {
 #btn{
 	line-height: 2.0;
 }
+
+.wrapper1,.single-card {
+	height: auto;
+	max-width: 200px;
+	margin: auto 100px auto 100px;
+	position: relative;
+}
+
+.wrapper1{
+	perspective: 900px;
+}
+
+.single-card {
+	text-align: center;
+	transition:all 1.5s cubic-bezier(0.7, -.5, 0.3, 1.8);
+	transform-style: preserve-3d;
+	margin: 0;
+}
+
+.wrapper1:hover .single-card {
+	transform: rotateY(180deg);
+}
+
+.front,
+.back {
+	width:250px;
+	position: relative;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+}
+
+.front{
+	cursor: pointer;
+	height: 350px;
+	backface-visibility: hidden;
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center center;
+	background-color: #ffffff;
+	padding-bottom: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow here */
+
+}
+
+.front p{
+	margin: 10% 7% 10% 7%;
+}
+
+.back {
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 20px;
+    height: 350px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow here */
+	background-color: rgb(223, 223, 223);
+}
+
+.back h2{
+	margin-top: 10%;
+}
+
+.back p{
+	margin: 10% 10% 10% 5%;
+}
+
+.back button{
+	background-color: #3ee5ff;
+	padding: 7px;
+	border: none;
+	margin-bottom: 5px;
+}
+
+.back button a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+
+.content1 h2{
+	font-size: 30px;
+}
+.content1 h4{
+	margin: 0;
+}
+.socials1{
+	margin-top: 20%;
+}
+.socials1 i{
+	font-size: 30px;
+	margin: 0 10px;
+
+}
+
+.big-eye {
+	color:rgb(255, 225, 0);
+	font-size: 24px; /* Adjust the size as needed */
+	border: 2px solid #000; /* Dark border color */
+	border-radius: 50%; /* Make it round */
+	padding: 8px; /* Add some padding for spacing */
+	background-color: #000;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.rocket {
+		color:rgb(255, 225, 0);
+		font-size: 24px; /* Adjust the size as needed */
+		border: 2px solid #000; /* Dark border color */
+		border-radius: 50%; /* Make it round */
+		padding: 8px; /* Add some padding for spacing */
+		background-color: #000;
+		margin-top: 15px;
+		margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+	
+.wrapper1,.single-card {
+	height: auto;
+	max-width: 200px;
+	margin: auto;
+	position: relative;
+}
+
+.wrapper1{
+	perspective: 900px;
+}
+
+.single-card {
+	text-align: center;
+	transition:all 1.5s cubic-bezier(0.7, -.5, 0.3, 1.8);
+	transform-style: preserve-3d;
+	transform-origin: center center; 
+	
+
+}
+
+.wrapper1:hover .single-card {
+	transform: rotateY(180deg);
+}
+
+.front,
+.back {
+	width:250px;
+	position: relative;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+}
+
+.front{
+	cursor: pointer;
+	height: 350px;
+	backface-visibility: hidden;
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center center;
+	background-color: #ffffff;
+	padding-bottom: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow here */
+	margin-bottom: 20px;
+
+}
+
+.front p{
+	margin: 10% 7% 10% 7%;
+}
+
+.back {
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 20px;
+    height: 350px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow here */
+	background-color: rgb(223, 223, 223);
+	
+	
+}
+
+.back h2{
+	margin-top: 10%;
+}
+
+.back p{
+	margin: 10% 10% 10% 5%;
+}
+
+.back button{
+	background-color: #3ee5ff;
+	padding: 7px;
+	border: none;
+	margin-bottom: 5px;
+}
+
+.back button a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+
+.content1 h2{
+	font-size: 30px;
+}
+.content1 h4{
+	margin: 0;
+}
+.socials1{
+	margin-top: 20%;
+}
+.socials1 i{
+	font-size: 30px;
+	margin: 0 10px;
+
+}
+
+.big-eye {
+	color:rgb(255, 225, 0);
+	font-size: 24px; /* Adjust the size as needed */
+	border: 2px solid #000; /* Dark border color */
+	border-radius: 50%; /* Make it round */
+	padding: 8px; /* Add some padding for spacing */
+	background-color: #000;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.rocket {
+		color:rgb(255, 225, 0);
+		font-size: 24px; /* Adjust the size as needed */
+		border: 2px solid #000; /* Dark border color */
+		border-radius: 50%; /* Make it round */
+		padding: 8px; /* Add some padding for spacing */
+		background-color: #000;
+		margin-top: 15px;
+		margin-bottom: 10px;
+}
+
+}
+
+
 
 @media only screen and (max-width:396px){
 	.navbar-light .navbar-brand{
@@ -343,7 +588,7 @@ body {
 	z-index: 999;
 	opacity: 0.5;
 	animation-delay: -5s;
-	bottom: 10px;
+	
 }
 
 
@@ -544,7 +789,22 @@ body {
 	color: #000;
   }
 
-  
+  @media screen and (max-width: 370px) {
+	#about{
+		margin-top: 470px;
+	}	
+  }
+  @media screen and (max-width: 400px) and (min-width: 370px) {
+	#about{
+		margin-top: 110%;
+	}
+  }
+
+  @media screen and (max-width: 500px) and (min-width: 390px) {
+	#about{
+		margin-top: 550px;
+	}
+  }
   @media screen and (max-width: 500px) {
 
 	
@@ -570,9 +830,9 @@ body {
 	  margin-top: 15%;
   
 	}
-	#about{
-		margin-top: 110%;
-	}
+	/* #about{
+		margin-top: 600px;
+	} */
 	.split.left {
 	
 	  width:100%;
