@@ -1154,6 +1154,11 @@ body {
   }
 
   /* contact  */
-.iframe{
-	filter:invert(100%);
+  iframe {
+	height: 450px; /* Adjust the height for mobile view as needed */
+}
+  @media screen and (max-width: 500px) {
+    iframe {
+        height: 300px; /* Adjust the height for mobile view as needed */
+    }
 }
