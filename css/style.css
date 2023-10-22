@@ -1162,3 +1162,14 @@ body {
         height: 300px; /* Adjust the height for mobile view as needed */
     }
 }
+
+.contact-bg{
+	background-image: url("../img/contactimage.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+.contact-form{
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+}
