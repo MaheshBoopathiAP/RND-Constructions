@@ -222,6 +222,18 @@ body {
 	margin-right: 0px!important;
 	margin-left: 0px!important;
 }
+
+@media screen and (max-width: 500px) {
+    .abtrow {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+    }
+}
+
+
 .card1{
 	padding: 0px!important;
 	
