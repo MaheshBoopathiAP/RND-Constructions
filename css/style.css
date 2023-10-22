@@ -686,6 +686,10 @@ body {
 
     margin: 10px;
 }
+
+.wrapper-ser p{
+   text-align: justify;
+}
 .content-box-ser{
     display: flex;
     justify-content:center;
