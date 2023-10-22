@@ -15,7 +15,7 @@ body {
   overflow-x: hidden;
 }
 .section-padding {
-	padding: 100px 0 0 0;
+	padding: 5% 0 0 0;
 }
 .carousel-item {
 	height: 100vh;
@@ -47,13 +47,20 @@ body {
 	background: rgba(0, 0, 0, 0.7);
 	z-index: 1;
 }
+.navbar {
+	background-color: #ffffff;
+}
+.navbar.scrolled {
+    background-color: #fff;
+}
+
 
 .navbar .getstarted {
 	background: #106eea;
 	margin-left: 30px;
 	border-radius: 4px;
 	font-weight: 400;
-	color: #fff;
+	color: transparent;
 	text-decoration: none;
 	padding: .5rem 1rem;
 	line-height: 2.3;
@@ -109,7 +116,7 @@ body {
 	line-height: 2.0;
 }
 
-.wrapper1,.single-card {
+/* .wrapper1,.single-card {
 	height: auto;
 	max-width: 200px;
 	margin: auto 100px auto 100px;
@@ -149,9 +156,9 @@ body {
 	background-position: center center;
 	background-color: #ffffff;
 	padding-bottom: 8px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow here */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow here 
 
-}
+} 
 
 .front p{
 	margin: 10% 7% 10% 7%;
@@ -163,7 +170,7 @@ body {
     border-radius: 20px;
     height: 350px;
     background: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow here */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 	background-color: rgb(223, 223, 223);
 }
 
@@ -202,7 +209,104 @@ body {
 	font-size: 30px;
 	margin: 0 10px;
 
+} */
+.abtrow{
+	margin-right: 0px!important;
+	margin-left: 0px!important;
 }
+.card1{
+	padding-right: 0px!important;
+}
+.container3 {
+	width: 300px;
+	height: 350px;
+	perspective: 800px;
+	margin: 10% 5%;
+  }
+  
+  .container3:hover > .card3 {
+	cursor: pointer;
+	transform: rotateY(180deg);
+  }
+  
+  .card3 {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	transition: transform 1500ms;
+	transform-style: preserve-3d;
+  }
+  
+  .front3,
+  .back3 {
+	height: 100%;
+	width: 100%;
+	border-radius: 2rem;
+	box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+	position: absolute;
+	backface-visibility: hidden;
+  }
+  
+  .front3 {
+	 /* background-image: url(https://source.unsplash.com/random/350x500); */
+	background-color: rgb(255, 255, 255);
+	cursor: pointer;
+	height: 350px;
+	backface-visibility: hidden;
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center center;
+	padding: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow here */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .back3 {
+	
+	transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 20px;
+    height: 350px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow here */
+	background-color: rgb(223, 223, 223);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  }
+
+  .front3 p{
+	margin: 10% 7% 10% 7%;
+	text-align:center; 
+}
+/* 
+.front3 h2{
+	margin-left: 26%;
+} */
+
+
+
+.back3 p{
+	margin: 10% 10% 10% 5%;
+	text-align:center; 
+}
+
+.back3 button{
+	background-color: #3ee5ff;
+	padding: 7px;
+	border: none;
+	margin-bottom: 5px;
+}
+
+.back3 button a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
 
 .big-eye {
 	color:rgb(255, 225, 0);
@@ -211,8 +315,7 @@ body {
 	border-radius: 50%; /* Make it round */
 	padding: 8px; /* Add some padding for spacing */
 	background-color: #000;
-	margin-top: 15px;
-	margin-bottom: 10px;
+	
 }
 
 .rocket {
@@ -225,6 +328,8 @@ body {
 		margin-top: 15px;
 		margin-bottom: 10px;
 }
+
+
 
 @media screen and (max-width: 500px) {
 	

@@ -1,3 +1,14 @@
+window.addEventListener('scroll', function() {
+  const navbar = document.querySelector('.navbar');
+
+  if (window.scrollY > 0) {
+      navbar.classList.add('scrolled');
+  } else {
+      navbar.classList.remove('scrolled');
+  }
+});
+
+
 const content = document.querySelector(".content");
 const left = document.querySelector(".left");
 const right = document.querySelector(".right");
