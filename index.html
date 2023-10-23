@@ -41,7 +41,7 @@
                 <a class="nav-link" href="#services">Services</a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Projects</a>
+                <a class="nav-link" href="#portfolio">Gallery</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#team">Team</a>
@@ -448,57 +448,53 @@
    
 
       <!-- portfolio strats -->
-      <section id="portfolio" class="portfolio section-padding">
-        <div class="container">
+      <section id="portfolio" class="gallery">
+        <div class="container-lg">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-header text-center pb-5">
-                        <h2 class="pb-3">Our Projects</h2>
+                        <h2 class="pb-3">Gallery</h2>
                         <div class="blue-line-abt"></div>
                         <!-- <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Non, quo.</p> -->
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-4">
-                    <div class="card text-light text-center bg-white pb-2">
-                        <div class="card-body text-dark">
-                          <div class="img-area mb-4">
-                              <img src="img/project-1.jpg" class="img-fluid" alt="">
-                          </div>
-                            <h3 class="card-title">Building Make</h3>
-                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p>
-                            <button class="btn bg-warning text-dark">Learn More</button>
-                        </div>
-                    </div>
+            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+               <div class="col">
+                  <img src="img/g1.jpg" class="gallery-item" alt="gallery">
+               </div>
+               <div class="col">
+                  <img src="img/g2.jpg" class="gallery-item" alt="gallery">
+               </div>
+               <div class="col">
+                  <img src="img/g3.webp" class="gallery-item" alt="gallery">
+               </div>
+               <div class="col">
+                  <img src="img/g4.jpg" class="gallery-item" alt="gallery">
+               </div>
+               <div class="col">
+                  <img src="img/g5.jpg" class="gallery-item" alt="gallery">
+               </div>
+               <div class="col">
+                  <img src="img/g6.jpg" class="gallery-item" alt="gallery">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Modal -->
+        <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Premium Houses</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="col-12 col-md-12 col-lg-4">
-                    <div class="card text-light text-center bg-white pb-2">
-                        <div class="card-body text-dark">
-                          <div class="img-area mb-4">
-                              <img src="img/project-2.jpg" class="img-fluid" alt="">
-                          </div>
-                            <h3 class="card-title">Building Make</h3>
-                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p>
-                            <button class="btn bg-warning text-dark">learn More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-4">
-                    <div class="card text-light text-center bg-white pb-2">
-                        <div class="card-body text-dark">
-                          <div class="img-area mb-4">
-                              <img src="img/project-3.jpg" class="img-fluid" alt="">
-                          </div>
-                            <h3 class="card-title">Building Make</h3>
-                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p>
-                            <button class="btn bg-warning text-dark">Learn More</button>
-                        </div>
-                    </div>
+                <div class="modal-body">
+                <img src="img/g1.jpg" class="modal-img" alt="modal img">
                 </div>
             </div>
+            </div>
         </div>
-      </section>
       <!-- portfolio ends -->
       <!-- team starts -->
       <section class="team section-padding" id="team">

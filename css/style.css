@@ -1173,3 +1173,29 @@ body {
 	background-color: rgba(255, 255, 255, 0.8);
 	border-radius: 10px;
 }
+
+
+/* Gallery */
+
+
+
+.gallery {
+    padding: 80px 0;
+}
+
+.gallery img {
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Increase size on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add shadow on hover */
+}
+
+#gallery-modal .modal-img {
+    width: 100%;
+}
