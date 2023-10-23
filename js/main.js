@@ -55,13 +55,3 @@ const navLinks = document.querySelectorAll('.nav-link');
 })
 
 
-document.addEventListener("DOMContentLoaded", function () {
-  const mySwiper = new Swiper(".swiper-container", {
-      loop: true,
-      slidesPerView: 3,
-      spaceBetween: 50,
-      autoplay: {
-    delay: 2000, // Set the delay (in milliseconds) between slides
-},
-  });
-});
