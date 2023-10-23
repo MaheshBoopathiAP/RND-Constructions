@@ -60,10 +60,6 @@ document.addEventListener("DOMContentLoaded", function () {
       loop: true,
       slidesPerView: 3,
       spaceBetween: 50,
-      pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-      },
       autoplay: {
     delay: 2000, // Set the delay (in milliseconds) between slides
 },
