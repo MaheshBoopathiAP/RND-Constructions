@@ -110,13 +110,13 @@ body {
 .portfolio .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
-.team .card {
+.testimonials .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
 .services .card-body i {
 	font-size: 50px;
 }
-.team .card-body i {
+.testimonials .card-body i {
 	font-size: 20px;
 }
 
@@ -713,6 +713,12 @@ body {
     box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
 	
 }
+
+.card-ser:hover {
+    transform: scale(1.08); /* Increase size on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add shadow on hover */
+}
+
 .card-ser i{
     margin: 20px;
     color: #581ed6;
