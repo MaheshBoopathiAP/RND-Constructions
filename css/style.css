@@ -807,6 +807,10 @@ body {
 #footer{
 	text-decoration: none;
 }
+#lastfooter{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
 
 .wav{
 	position: relative;
